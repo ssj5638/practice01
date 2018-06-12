@@ -17,3 +17,11 @@ for a in range(1, 100):
                 print(b, ' 짝')
         elif str(3) in d or str(6) in d or str(9) in d:
             print(b, ' 짝')
+
+'''민규코드드
+for i in rnge(1,101):
+        if str(i).count("3")+ str(i).count("6") + str(i).count("9")==1:
+           print(str(i) +"짝")
+
+        if str(i).count("3")+str(i).count("6") + str(i).count("9")== 2:
+            print(str(i) +"짝짝")'''
